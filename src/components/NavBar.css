@@ -1,0 +1,40 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .nav-button {
+    background-color: #e6e6e6;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .nav-button:focus {
+    outline: none;
+  }
+  
